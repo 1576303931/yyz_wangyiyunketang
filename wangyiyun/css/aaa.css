@@ -1,0 +1,208 @@
+.show {
+	width: 100%;
+	height: 400px;
+	background-image: url(https:edu-image.nosdn.127.net/C2681A70AE7B77FC9A7684132F6360A2.jpg?imageView&thumbnail=1800y400&quality=100);
+	position: relative;
+}
+
+.show>.g-flow {
+	width: 1205px;
+	height: 100%;
+	margin: 0px 189px 0px 189px;
+	/*background: red;*/
+}
+
+.show>.g-flow>.padding-top-30 {
+	position: relative;
+	padding-top: 30px;
+}
+
+.flul {
+	float: left;
+}
+
+.bread-item {
+	/*line-height: ;*/
+	margin-right: 23px;
+	float: left;
+	text-decoration: none;
+	color: #16181B;
+}
+
+.bread-item>a {
+	font-size: 17px;
+	text-decoration: none;
+	color: #16181B;
+}
+
+.bread-triangle:after {
+	border: 5px solid transparent;
+	border-left: 5px solid darkgray;
+	width: 0;
+	height: 0;
+	position: absolute;
+	content: ' ';
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.aaa {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-size: 50px;
+	height: 65px;
+	margin-top: 30px;
+	text-align: left;
+	color: #000000;
+}
+
+.bbb {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	height: 80px;
+	line-height: 25px;
+	overflow: hidden;
+	width: 546px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	color: #000000;
+}
+
+.joinbox {
+	font-family: "Arial", "Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+	font-size: 14px;
+	color: #444;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	width: 600px;
+	height: 60px;
+}
+
+.j-joinbox {
+	font-family: "Arial", "Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+	font-size: 14px;
+	color: #444;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	zoom: 1;
+}
+
+.j-collectionbtn {
+	font-size: 14px;
+	color: #444;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+.u-spec-collectionbtn {
+	font-size: 14px;
+	color: #444;
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #ff8a00;
+	line-height: 60px;
+	text-align: center;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.u-spec-collectionbtn_icon {
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	color: #fff;
+	font-size: 24px;
+}
+
+.actbtn {
+	cursor: pointer;
+	text-decoration: none;
+	float: left;
+	padding: 0 13px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	min-width: 236px;
+	font-size: 24px;
+	color: #fff;
+	background-color: #ff7200;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.tobox {
+	font-size: 14px;
+	color: #444;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 20px;
+}
+
+.priceBox {
+	font-size: 14px;
+	color: #444;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	zoom: 1;
+}
+
+.price {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	float: left;
+	font-size: 36px;
+	color: #ff3c00;
+	line-height: 40px;
+}
+
+.tab-menu {
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #DDD;
+}
+
+.g-flow {
+	font-size: 14px;
+	color: #444;
+	padding: 0;
+	margin: 0 auto;
+	text-align: left;
+	width: 1205px;
+}
+
+.flul {
+	font-size: 14px;
+	color: #444;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+.j-tabItem {
+	cursor: pointer;
+	margin-top: 20px;
+	margin-right: 35px;
+	font-size: 19px;
+	line-height: 30px;
+	color: #666;
+	float: left;
+}

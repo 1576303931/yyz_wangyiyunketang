@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<!--<link rel="stylesheet" href="css/aaa.css" />-->
+		<link rel="stylesheet" type="text/css" href="css/styleSet.css" />
+		<title></title>
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+				list-style: none;
+			}
+			
+			body {
+				height: 10000px;
+				padding-top: 60px;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			a:hover {
+				color: ;
+				text-decoration: none;
+			}
+			
+			.show {
+				width: 100%;
+				height: 400px;
+				background-image: url(https:edu-image.nosdn.127.net/C2681A70AE7B77FC9A7684132F6360A2.jpg?imageView&thumbnail=1800y400&quality=100);
+				position: relative;
+			}
+			
+			.bread-item {
+				/*line-height: ;*/
+				/*width: 500px;*/
+				margin-right: 30px;
+				float: left;
+				text-decoration: none;
+				color: #16181B;
+			}
+			
+			.bread-item:after {
+				border: 5px solid transparent;
+				border-left: 5px solid darkgray;
+				position: absolute;
+				content: ' ';
+				margin-left: 10px;
+				margin-top: 5px;
+			}
+			
+			.bread-item>a {
+				font-size: 17px;
+				color: #16181B;
+			}
+			
+			.destitle {
+				margin: 15px 0px 0px 0px;
+				text-align: left;
+				color: #000000;
+				display: inline-block;
+			}
+			
+			.txtdesc {
+				text-align: left;
+				overflow: hidden;
+				width: 546px;
+				margin-top: 30px;
+				margin-bottom: 40px;
+				color: #000000;
+			}
+			
+			.joinbox {
+				font-size: 14px;
+				color: #444;
+				text-align: left;
+			}
+			
+			.f-cb {
+				font-size: 14px;
+				color: #444;
+				text-align: left;
+				zoom: 1;
+			}
+			
+			.j-collectionbtn {
+				font-size: 14px;
+				color: #444;
+				text-align: left;
+			}
+			
+			.u-spec-collectionbtn {
+				float: left;
+				display: inline-block;
+				width: 60px;
+				height: 60px;
+				background: #ff8a00;
+				line-height: 60px;
+				text-align: center;
+				box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			}
+			
+			.u-spec-collectionbtn_icon {
+				cursor: pointer;
+				font-family: 'icomoon';
+				color: #fff;
+				font-size: 24px;
+			}
+			
+			.actbtn {
+				cursor: pointer;
+				float: left;
+				padding: 0 13px;
+				height: 60px;
+				line-height: 60px;
+				text-align: center;
+				min-width: 236px;
+				font-size: 24px;
+				background-color: #ff7200;
+				box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			}
+			
+			.tobox {
+				font-size: 14px;
+				color: #444;
+				text-align: left;
+				float: left;
+				margin-left: 20px;
+			}
+			
+			.priceBox {
+				text-align: left;
+				zoom: 1;
+			}
+			
+			.price {
+				text-align: left;
+				float: left;
+				font-size: 36px;
+				color: #ff3c00;
+				line-height: 40px;
+			}
+			
+			.tab-menu {
+				width: 100%;
+				height: 70px;
+				border-bottom: 1px solid #DDD;
+			}
+			/*.g-flow {
+				font-size: 14px;
+				color: #444;
+				padding: 0;
+				margin: 0 auto;
+				text-align: left;
+				width: 1205px;
+			}*/
+			
+			.j-tabItem {
+				cursor: pointer;
+				margin-top: 20px;
+				margin-right: 35px;
+				font-size: 19px;
+				line-height: 30px;
+				color: #666;
+				float: left;
+			}
+			
+			.j-ksAncor {
+				font-size: 14px;
+				margin: 0 auto;
+				text-align: left;
+				width: 1205px;
+				background: #ffffff !important;
+				margin-top: 55px;
+			}
+			
+			.g-container {
+				position: relative;
+				z-index: 0;
+			}
+			
+			.img {
+				width: 449px;
+				height: 250px;
+				box-sizing: border-box;
+				position: relative;
+				float: left;
+			}
+			
+			.info {
+				height: 250px;
+				border: 1px solid #ddd;
+				box-sizing: border-box;
+				/*float: right;*/
+				position: relative;
+			}
+			
+			.cnt {
+				text-align: left;
+				height: 208px;
+				padding: 20px;
+				border-left: none;
+				margin-left: 450px;
+			}
+			
+			.classname {
+				text-align: left;
+				cursor: pointer;
+				text-decoration: none;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				color: #333;
+				font-size: 26px;
+				width: 90%;
+				display: block;
+			}
+			
+			.teacher {
+				text-align: left;
+				overflow: hidden;
+				color: #999;
+				font-size: 12px;
+				padding: 12px 0 12px 0;
+				margin: 0px;
+			}
+			
+			.intro {
+				text-align: left;
+				color: #333;
+				font-size: 14px;
+				margin-bottom: 22px;
+				height: 60px;
+				width: 68%;
+				overflow: hidden;
+				margin: 0px;
+			}
+			
+			.tip {
+				text-align: left;
+				color: #999;
+				padding-bottom: 10px;
+				font-size: 14px;
+				margin: 0px;
+			}
+			
+			.link {
+				cursor: pointer;
+				position: absolute;
+				display: block;
+				height: 60px;
+				line-height: 60px;
+				text-align: center;
+				font-size: 28px;
+				width: 190px;
+				bottom: 20px;
+				right: 20px;
+				color: #fff;
+				background-color: #ff8000;
+			}
+			
+			.normal {
+				text-align: center;
+				color: #ff3e00;
+				font-size: 28px;
+				padding-bottom: 8px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class=""></div>
+		<div class="show">
+			<div class="g-flow">
+				<div class="padding-top-30">
+					<ul class="flul">
+						<li class="bread-item bread-triangle iconfont">
+							<a href="//study.163.com/find.htm">全部课程</a>
+							<!--::after-->
+						</li>
+						<li class="bread-item bread-triangle iconfont">
+							<a href="//study.163.com/series/all.htm">系列课程</a>
+						</li>
+						<li class="bread-item grey iconfont" style="color: #A9A9A9; font-size: 17px;">详情</li>
+					</ul>
+				</div>
+				<h2 class="font-size-50 destitle ht-65" style="color:#000000;">全栈视频创作人</h2>
+				<p class="line-height-25 font-size-15 ht-80 color-333 txtdesc" style="color:#000000;word-wrap: break-word;">本套课程将带你从零基础变身全栈视频创作人。二更学院联合7位影视制作人，系统梳理创作全流程，从选题、拍摄、剪辑基础，到各类场景实拍技巧，让学习一步到位。</p>
+				<div class="joinbox">
+					<div class="f-cb">
+						<div class="j-collectionbtn">
+							<div class="u-spec-collectionbtn f-fl">
+								<!--Regular if94-->
+								<a class="" title="加入收藏">
+									<span class="u-spec-collectionbtn_icon iconfont icon-xinghao"></span>
+								</a>
+							</div>
+						</div>
+						<a id="j-pkg" class="actbtn" style="color: white;">参加全部课程</a>
+						<div class="tobox f-fl">
+							<div class="priceBox f-cb">
+								<div class="price f-fl">¥ 1345.00</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="" class="tab-menu">
+			<div class="g-flow">
+				<ul class="flul">
+					<li class="j-tabItem">视频创作基础: 拍摄/剪辑</li>
+					<li class="j-tabItem">视频创作实战 : 人物类</li>
+					<li class="j-tabItem">视频创作实战：活动类</li>
+					<li class="j-tabItem">视频创作实战 : vlog类</li>
+					<li class="j-tabItem">视频创作实战 : 美食类</li>
+				</ul>
+			</div>
+		</div>
+		<div class="g-flow bg-white margin-top-55 j-ksAncor">
+			<h3>视频创作基础:  拍摄/剪辑</h3>
+			<p>从硬件到软件，从前期到后期，一气呵成，帮你全维度夯实创作基础</p>
+			<div class="g-container">
+				<div class="u-popular-cover">
+					<div class="wrap m-test5-wrap f-pr f-cb">
+						<a class="f-fl f-pr img" href="/course/introduction/1210100849.htm" style="width: 449px;">
+							<img src="//edu-image.nosdn.127.net/2F9BFA83354E279584F154AF78EDBFAE.jpeg?imageView&amp;quality=100&amp;thumbnail=450y250"></a>
+						<div class="info">
+							<div class="cnt">
+								<a class="classname" href="/course/introduction/1210100849.htm">70节课拍摄剪辑晋升攻略</a>
+								<p class="teacher">二更学院</p>
+								<p class="intro">通过70节场景再现式教学课程，手把手实操讲解微单、手机等设备操作，剪辑软件操作基础，将拍摄、剪辑、思维、选题一一攻破。</p>
+								<p class="tip">现在参加，126人与你并肩作战!</p>
+								<a class="link" href="/course/introduction/1210100849.htm">查看详情</a>
+								<div class="price f-pa">
+									<p class="normal">¥ 699.00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

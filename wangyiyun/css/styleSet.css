@@ -1,0 +1,80 @@
+.flul {
+	width: 100%;
+	font-size: 14px;
+	text-align: left;
+	float: left;
+}
+
+.g-flow {
+	margin: 0 auto;
+	width: 76%;
+	text-align: left;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.margin-top-55 {
+	margin-top: 55px;
+}
+
+.margin-bottom-25 {
+	margin-bottom: 25px;
+}
+
+.color-666 {
+	color: #666;
+}
+
+.padding-top-30 {
+	padding-top: 30px;
+}
+
+.font-size-15 {
+	font-size: 15px;
+}
+
+.font-size-31 {
+	font-size: 31px;
+}
+
+.font-size-50 {
+	font-size: 50px;
+}
+
+.line-height-25 {
+	line-height: 25px;
+}
+
+.ht-20 {
+	height: 20px;
+}
+
+.ht-40 {
+	height: 40px;
+}
+
+.ht-65 {
+	height: 65px;
+}
+
+.ht-80 {
+	height: 80px;
+}
+
+.bg-white {
+	background: white;
+}
+
+.f-fr {
+	float: right;
+}
+
+.f-fl {
+	float: left;
+}
+
+.f-pr {
+	position: relative;
+}
